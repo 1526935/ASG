@@ -7,11 +7,21 @@ using System.Web.UI.WebControls;
 
 namespace Default
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class trial : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            litSearch.Text = Request.QueryString["searchFields"];
+        }
 
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void SearchBtn_Click(object sender, EventArgs e)
+        {
+        
         }
     }
 }

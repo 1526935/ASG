@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace Default
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class trial1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void NameTxt_TextChanged(object sender, EventArgs e)
         {
 
         }

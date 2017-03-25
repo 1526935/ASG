@@ -94,10 +94,11 @@ text-align: center;
 width: 16%;
 transition: all 0.3s linear;
 }
-.secondary_header ul li:hover {
-	color: #717070;
-	cursor: pointer;
-}
+    .secondary_header ul li:hover {
+        color: #717070;
+        cursor: pointer;
+        background-color: #7ACBFC;
+    }
 .left_article {
 background-color: #FFFFFF;
 width: 60%;
@@ -428,4 +429,29 @@ text-align: center;
     width: 89%;
     height: 2031;
     border: 1;
+}
+
+body {
+    background-color: white;
+}
+
+.box {
+    background-color: #FFF;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.productsList {
+    background-color: #6CC4F5;
+}
+
+    .productsList .product {
+        background-color: #FFF;
+        margin: 10px;
+        border: 1px solid;
+    }
+
+        .productsList .product .productImage {
+        }
 

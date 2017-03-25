@@ -10,7 +10,7 @@
 namespace Default {
     
     
-    public partial class WebForm1 {
+    public partial class contact1 {
         
         /// <summary>
         /// form1 control.
@@ -22,22 +22,22 @@ namespace Default {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// NameTxt control.
+        /// TxtName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox NameTxt;
+        protected global::System.Web.UI.WebControls.TextBox TxtName;
         
         /// <summary>
-        /// ReqNameValidator control.
+        /// RegExpName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqNameValidator;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpName;
         
         /// <summary>
         /// EmailTxt control.
@@ -49,13 +49,13 @@ namespace Default {
         protected global::System.Web.UI.WebControls.TextBox EmailTxt;
         
         /// <summary>
-        /// RegExpValidator control.
+        /// RegExpEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpValidator;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpEmail;
         
         /// <summary>
         /// SubjectTxt control.
@@ -67,22 +67,22 @@ namespace Default {
         protected global::System.Web.UI.WebControls.TextBox SubjectTxt;
         
         /// <summary>
-        /// SubTxt control.
+        /// RegExpSub control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator SubTxt;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpSub;
         
         /// <summary>
-        /// MessageTxt control.
+        /// MsgTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MessageTxt;
+        protected global::System.Web.UI.WebControls.TextBox MsgTxt;
         
         /// <summary>
         /// SubmitBtn control.
