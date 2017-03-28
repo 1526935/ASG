@@ -11,7 +11,7 @@ namespace Default
 {
 
 
-    public partial class trial2
+    public partial class Products
     {
     }
 }

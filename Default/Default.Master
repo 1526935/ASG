@@ -35,7 +35,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:TextBox ID="SearchBox" runat="server" Width="198px"></asp:TextBox>
-&nbsp;<asp:Button ID="SearchBtn" runat="server" OnClick="SearchBtn_Click" Text="Search" />
+<asp:Button ID="SearchBtn" runat="server" OnClick="SearchBtn_Click" Text="Search" />
         <asp:Literal ID="litSearch" runat="server"></asp:Literal>
         <div>
    
@@ -58,10 +58,10 @@
     </div>
   </div>
 <div class="social">
-  <p class="mini_icon"><img src="images/you.jpg" width="1582" alt="you" class="thumbnail"/></p>
-  <p class="mini_icon"><img src="images/can.png" width="300" alt="can" class="thumbnail"/></p>
-<p class="mini_icon"><img src="images/DO_GIF_Header.gif" width="620" alt="do" class="thumbnail"/></p>
-<p class="mini_icon"><img src="images/it.png" width="300" alt="it!" class="thumbnail"/></p>
+  <p class="mini_icon"><img src="~/images/you.jpg" runat="server" width="1582" alt="you" class="thumbnail"/></p>
+  <p class="mini_icon"><img src="~/images/can.png" runat="server" width="300" alt="can" class="thumbnail"/></p>
+<p class="mini_icon"><img src="~/images/DO_GIF_Header.gif" runat="server" width="620" alt="do" class="thumbnail"/></p>
+<p class="mini_icon"><img src="~/images/it.png" runat="server" width="300" alt="it!" class="thumbnail"/></p>
     <p class="mini_icon">&nbsp;</p>
 </div>
   <footer class="secondary_header footer">

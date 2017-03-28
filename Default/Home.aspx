@@ -3,8 +3,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
   
-  <article class="left_article">
-    <h3>About us </h3>
+    <article class="left_article">
+    <h3>&nbsp;</h3>
+      <h3>About us </h3>
   </article>
   
   &nbsp;<article class="left_article">
@@ -25,7 +26,7 @@
  <p>&nbsp;</p>
     <p>&nbsp;</p>
     <div class="box">
-    <h2>Products Instock</h2>
+    <h2 class="auto-style2">Products Instock</h2>
     <div class="productsList">
         <br />
       <div class="product">
@@ -33,12 +34,11 @@
             <p class="product">Name: Mathematics board</p>
         <p class="product">Product Code: 00130</p>
             <p class="product">Price: BND22.00<br /></p>
-      
-           
       </div>
+
       <div class="product">
             <div class="productImage"><img src="~/images/Calculation Board.jpg" runat="server" width="285" height="163" alt="Wooden Maths"></div>
-            <p class="product">Name: Wooden Maths</p>
+            <p class="product">Name: Calculation Board</p>
             <p class="product">Product Code: 00131</p>
             <p class="product">Price: BND25.00</p>
             <br />
@@ -54,10 +54,26 @@
           <div class="productImage"><img src="images/educational-toys.jpg" width="301" height="211" alt="Educational blocks"></div>
           <p class="product">Name: Matching Shapes</p>
             <p class="product">Product Code: 00125</p>
-            <p class="product">Price: BND18.00</p>
+            <p class="product">Price: BND18.90</p>
         </div>
     </div>
 </div>
+
+     <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="box">
+    <h2 class="auto-style2">Out of stock</h2>
+    <div class="productsList">
+        <br />
+      <div class="product">
+        <div class="productImage"><img src="~/images/counting games.jpg" runat="server" width="286" alt="Counting Games" class="auto-style3"></div>
+            <p class="product">Name: Counting Games</p>
+        <p class="product">Product Code: 00128</p>
+            <p class="product">Price: BND9.90<br /></p>
+      
+       </div>    
+      </div>
+        </div>
 
     <div class="row">
     <div class="columns">
@@ -78,12 +94,13 @@
       <p>Let the young generations to enjoy their exploration with the effective teaching tools, whereas it will help them to easily understand on what they have learnt.</p>
     </div>
     
-    <div class="columns">
+    <div class="auto-style1">
       <p class="thumbnail_align"> <img src="images/family.jpg" alt="family" class="thumbnail"/> </p>
       <h4>FAMILY</h4>
       <p>There are reasons of why the parent should started to be more aware for your young educators. It helps to encourage your child to get their confidence and self-trust on their capability.</p>
     </div>
   </div>
+       
 
 
 
