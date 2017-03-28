@@ -1,149 +1,103 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="Default.Products" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="Default.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-   
-   
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-    <h4> PRODUCT DETAILS</h4>
-    <p> 
-        <img id="shopping cart" alt="Shopping Cart" src="images/logo-bootstrap-shoping-cart.png" width="213" height="72" /></p>
-<div class="main-content">
+    <br />
+        <br />
+ <div class="row column text-center">
+      <h1>Check Out Our Newest Products</h1>
+      <p>
+          <asp:Image ID="Image1" runat="server" Height="48px" ImageUrl="~/images/logo-bootstrap-shoping-cart.png" Width="199px" />
+      </p>
+      <hr>
+    </div>
+
+    <div class="main-content">
 		<div class="carouse1-container">		
 		<div class="carouse1">		
-		<div class="carouse1-image"><img src="images/Calculation Board.jpg" width="350" height="300" /></div>
-		<div class="carouse1-image"><img src="images/counting games.jpg" width="350" height="300" /></div>
-		<div class="carouse1-image"><img src="images/explore and match.jpg" width="350" height="300" /></div>
-		<div class="carouse1-image"><img src="images/wooden board.jpg" width="300" height="300"/></div>
-		<div class="carouse1-image"><img src="images/truck.jpg" width="350" height="300" /></div>
+		<div class="carouse1-image"><img src="~/images/Baby-Toys-ABC-123.jpg" runat="server" alt="ABC Blocks and Numbers" width="350" height="300" /></div>
+		<div class="carouse1-image"><img src="~/images/colors.jpg" runat="server" alt="Identify on Colors" width="350" height="300" /></div>
+		<div class="carouse1-image"><img src="~/images/truck.jpg" runat="server" alt="Matching shapes on the truck" width="300" height="300" /></div>
+		<div class="carouse1-image"><img src="~/images/matching shapes.jpg" runat="server" alt="Matching Shapes" width="300" height="300" /></div>
+		<div class="carouse1-image"><img src="~/images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" runat="server" alt="Counting Beads" width="350" height="300" /></div>
 	</div>
 </div>
-    </div>
-    &nbsp;
-    &nbsp;
-
-    <div class="img">					 
-  <a target="_blank" href="images/truck.jpg">
-    <img src="images/truck.jpg" alt="Trucks" width="350" height="350" title="Matching Shaes On Truck">
-  </a>
-  <div class="desc"> <p>Name: Matching Shapes On The Truck<br />
-      Product No: 00021 
-      <br />
-      Price: BND13.90</p>
-      </div>
-</div>
-
-
-<!-- Second image and desriptions are adapted from http://cliparts.co/clipart/3784667 -->						  
-<div class="img">
-  <a target="_blank" href="images/Baby-Toys-ABC-123.jpg">
-    <img src="images/Baby-Toys-ABC-123.jpg" alt="ABC Blocks" width="350" height="350" title="ABC & Numbers Wooden Blocks">
-  </a>
-  <div class="desc"><p>Name: ABC Wooden Blocks and Numbers <br />
-      Product No: 00135 
-      <br />
-      Price: BND35.00</p>
-      </div>
-</div>
-
-
-<!-- Third image and descriptions are adapted from http://www.wikiwand.com/id/Butch_(Tom_and_Jerry) -->			
-<div class="img">
-  <a target="_blank" href="images/Calculation Board.jpg">
-    <img src="images/Calculation Board.jpg" alt="Butch" width="350" height="350" title="Calculation Board">
-  </a>
-  <div class="desc"><p>Name: Calculation Board <br />
-      Product No: 00131 
-      <br />
-      Price: BND25.00</p>
-      </div>
-</div>
-
-
-<!-- Fourth image is adapted from http://www.aveleyman.com/ActorCredit.aspx?ActorID=79966 **
-Description is adapted from http://www.wikiwand.com/en/List_of_Tom_and_Jerry_characters#/Butchhttp:/-->
-<div class="img">
-  <a target="_blank" href="images/mathematics count.jpg">
-    <img src="images/mathematics count.jpg" alt="Mathematics Board" width="350" height="350" title="Mathematics Board">
-  </a>
-  <div class="desc"><p>Name: Mathematics Board <br />
-      Product No: 00130 
-      <br />
-      Price: BND22.00</p>
-      </div>
-</div>
-
-    <div>
-<div class="clearfix"></div>
-     <div class="desc"><p>NEW ARRIVAL<br /> 
-      </div>
-</div>
-
-
+        </div>
+    <h2>Product Details</h2>
 <br />
-
-<!-- Fifth image is adapted from <img src="http://tomandjerry.wikia.com/wiki/File:Toodles_Kitty.png **
-Description is adapted from http://www.wikiwand.com/en/List_of_Tom_and_Jerry_characters#/Butchhttp:/-->
-<div class="img">
-  <a target="_blank" href="images/colors.jpg">
-    <img src="images/colors.jpg" alt="Colours" width="350" height="350" title="Learning On Basic Colors">
-  </a>
-   <div class="desc"><p>Learning On Basic Colors <br />
-      Product No: 00132 
-      <br />
-      Price: BND18.90</p>
+        <br />
+    <div class="row small-up-2 large-up-4">
+      <div class="column">
+        <img class="Products" src="~/images/Baby-Toys-ABC-123.jpg" runat="server" alt="ABC wooden blocks and number" width="350" height="350">
+        <h4>ABC Wooden Blocks and Number</h4>
+        <p>Product No: 00135</p>
+          <p>Price: BND35.00</p>
+        <a href="#" class="button expanded">ADD TO CART</a>
       </div>
-</div>
-
-
-
-<!-- Sixth image is adapted from https://www.google.com.bn **
-Description is adapted from http://www.wikiwand.com/en/List_of_Tom_and_Jerry_characters#/Butchhttp:/  -->
-<div class="img">
-  <a target="_blank" href="images/matching shapes.jpg">
-    <img src="images/matching shapes.jpg"  alt="Maching Shapes" width="350" height="350" title="Matching Shapes">
-  </a>
-  <div class="desc"><p>Matching Shapes<br />
-      Product No: 00125 
-      <br />
-      Price: BND18.90</p>
+<br />
+        <br />
+      <div class="column">
+        <img class="Products" src="~/images/truck.jpg" runat="server" alt="Matching Shapes On Truck" width="350" height="350">
+        <h4>Matching Shapes On The Truck</h4>
+        <p>Product No: 00021 </p>
+          <p>Price: BND13.90</p>
+        <a href="#" class="button expanded">ADD TO CART</a>
       </div>
-</div>
-
-
-
-<!-- Seventh image is adapted from https://www.google.com.bn  ** 
-Desription is adapted from http://www.wikiwand.com/en/List_of_Tom_and_Jerry_characters#/Butchhttp:/  -->
-<div class="img">
-  <a target="_blank" href="images/explore and match.jpg">
-      <img src="images/explore and match.jpg" alt="Explore and Match" width="350" height="350" title="Explore and Match">
-  </a>
- <div class="desc"><p>Play and Match<br />
-      Product No: 00126 
-      <br />
-      Price: BND11.90</p>
+<br />
+        <br />
+      <div class="column">
+        <img class="Products" src="~/images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" runat="server" width="350" height="350">
+        <h4>Counting Beads Abacus Wire Maze</h4>
+        <p>Product No: 00127 </p>
+        <a href="#" class="button expanded">ADD TO CART</a>
       </div>
-</div>
-
-
-
-
-<!-- Eighth image is adapted from https://www.google.com.bn  ** 
-Desription is adapted from http://www.wikiwand.com/en/List_of_Tom_and_Jerry_characters#/Butchhttp:/  -->
-<div class="img">
-  <a target="_blank" href="images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg">
-      <img src="images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" alt="Counting Beads Abacus Wire Maze" width="350" height="350" title="Counting Beads Abacus Wire Maze">
-  </a>
-  <div class="desc"><p>Counting Beads Abacus Wire Maze<br />
-      Product No: 00127 
-      <br />
-      Price: BND22.90</p>
+<br />
+        <br />
+      <div class="column">
+        <img class="Products" src="~/images/explore and match.jpg" runat="server" alt="Play and Match" width="350" height="350">
+        <h4>Play and Match</h4>
+        <p>Product No: 00126 </p>
+          <p>Price: BND10.90</p>
+        <a href="#" class="button expanded">ADD TO CART</a>
       </div>
-</div>
-    
-
-  
-    
+    </div>
+<br />
+        <hr id="Horizontal line" />
+        <br />
+     <div class="column">
+        <img class="Products" src="~/images/colors.jpg" runat="server" alt="Identify on colors" width="350" height="350">
+        <h4>Identify The Basic Colors</h4>
+        <p>Product No: 00132 </p>
+          <p>Price: BND12.90</p>
+        <a href="#" class="button expanded">ADD TO CART</a>
+      </div>
+<br />
+        <br />
+     <div class="column">
+        <img class="Products" src="~/images/matching shapes.jpg" runat="server" alt="Matching Shapes" width="350" height="350">
+        <h4>Matching Shapes</h4>
+        <p>Product No: 00125 </p>
+          <p>Price: BND12.00</p>
+        <a href="#" class="button expanded">ADD TO CART</a>
+      </div>
+<br />
+        <br />
+     <div class="column">
+        <img class="Products" src="~/images/see-n-spell.png" runat="server" alt="See and Spell" width="350" height="350">
+        <h4>See and Spell</h4>
+        <p>Product No: 00126 </p>
+          <p>Price: BND22.90</p>
+        <a href="#" class="button expanded">ADD TO CART</a>
+      </div>
+<br />
+        <br />
+     <div class="column">
+        <img class="Products" src="~/images/wooden board.jpg" runat="server" alt="Wooden Board" width="350" height="350">
+        <h4>Wooden Board</h4>
+        <p>Product No: 00127 </p>
+          <p>Price: BND28.90</p>
+        <a href="#" class="button expanded">ADD TO CART</a>
+      </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MyFooterSection" runat="server">
 </asp:Content>

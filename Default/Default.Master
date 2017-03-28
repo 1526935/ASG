@@ -20,7 +20,7 @@
 
     <nav class="secondary_header" id="menu">
       <ul>
-          <li><a href= "~/Home.aspx" runat="server">HOME</a></li> 
+          <li><a href= "~/Default.aspx" runat="server">HOME</a></li> 
 		  <li><a href="~/Products.aspx" runat="server">PRODUCTS</a></li> 
         <li><a href="~/Log In.aspx" runat="server">LOG IN</a></li> 
         <li><a href="~/Guestbook.aspx" runat="server">GUESTBOOK</a></li>

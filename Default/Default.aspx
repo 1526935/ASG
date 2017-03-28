@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Default.trial1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Default.trial1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
@@ -31,30 +31,30 @@
         <br />
       <div class="product">
         <div class="productImage"><img src="~/images/mathematics count.jpg" runat="server" width="286" height="159" alt="Mathematics count"></div>
-            <p class="product">Name: Mathematics board</p>
+            <p class="product">Mathematics board</p>
         <p class="product">Product Code: 00130</p>
             <p class="product">Price: BND22.00<br /></p>
       </div>
 
       <div class="product">
-            <div class="productImage"><img src="~/images/Calculation Board.jpg" runat="server" width="285" height="163" alt="Wooden Maths"></div>
-            <p class="product">Name: Calculation Board</p>
-            <p class="product">Product Code: 00131</p>
-            <p class="product">Price: BND25.00</p>
+            <div class="productImage"><img src="~/images/truck.jpg" runat="server" width="285" height="163" alt="Matching Shapes On The Trucks"></div>
+            <p class="product">Matching Shapes On The Truck</p>
+            <p class="product">Product Code: 00021</p>
+            <p class="product">Price: BND13.90</p>
             <br />
         </div>
         <div class="product">
           <div class="productImage"><img src="images/Baby-Toys-ABC-123.jpg" width="347" height="191" alt="blocks"></div>
-            <p class="product">Name: ABC Wooden Blocks and Numbers</p>
+            <p class="product">ABC Wooden Blocks and Numbers</p>
             <p class="product">Product Code: 00135</p>
             <p class="product">Price: BND35.00</p>
         </div>
         <br />
       <div class="product">
-          <div class="productImage"><img src="images/educational-toys.jpg" width="301" height="211" alt="Educational blocks"></div>
-          <p class="product">Name: Matching Shapes</p>
+          <div class="productImage"><img src="~/images/matching shapes.jpg" runat="server" width="301" height="211" alt="Educational blocks"></div>
+          <p class="product">Matching Shapes</p>
             <p class="product">Product Code: 00125</p>
-            <p class="product">Price: BND18.90</p>
+            <p class="product">Price: BND12.00</p>
         </div>
     </div>
 </div>
@@ -67,7 +67,7 @@
         <br />
       <div class="product">
         <div class="productImage"><img src="~/images/counting games.jpg" runat="server" width="286" alt="Counting Games" class="auto-style3"></div>
-            <p class="product">Name: Counting Games</p>
+            <p class="product">Counting Games</p>
         <p class="product">Product Code: 00128</p>
             <p class="product">Price: BND9.90<br /></p>
       
@@ -94,7 +94,7 @@
       <p>Let the young generations to enjoy their exploration with the effective teaching tools, whereas it will help them to easily understand on what they have learnt.</p>
     </div>
     
-    <div class="auto-style1">
+    <div class="columns">
       <p class="thumbnail_align"> <img src="images/family.jpg" alt="family" class="thumbnail"/> </p>
       <h4>FAMILY</h4>
       <p>There are reasons of why the parent should started to be more aware for your young educators. It helps to encourage your child to get their confidence and self-trust on their capability.</p>
