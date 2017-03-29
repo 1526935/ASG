@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationalGuides", "Default\EducationalGuides.csproj", "{3A0B4363-7D51-4F1E-B5EB-F16F811D9E6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachingAids", "Default\TeachingAids.csproj", "{3A0B4363-7D51-4F1E-B5EB-F16F811D9E6C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82EECBA2-5425-43CE-9D32-3BCE9E9B335D}"
 	ProjectSection(SolutionItems) = preProject
