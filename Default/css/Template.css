@@ -415,7 +415,8 @@ text-align: center;
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 }
 
-/*Product Section*/
+/******************---PRODUCT SECTION---*******************************/
+/*======================CSS is adapted from http://www.w3schools.com/ */
 .product {
 	font-family: "Comic Sans MS", cursive;
 	font-size: 20px;
@@ -459,7 +460,7 @@ body {
 
 
 /******************---DESIGN FOR CAROUSE1 IN PRODUCTS PAGE---*******************************/
-/*======================CSS is adapted from http://www.w3schools.com/*/
+/*======================CSS is adapted from http://www.w3schools.com/ */
 
 .carouse1-container {
     width: 100%;
@@ -609,4 +610,10 @@ img.Products {
     max-width: 300px;
     height: 300px;
     border: 1px solid black;
-} 
+}
+/******************---BABY SECTION--*******************************/
+/*======================CSS is adapted from http://www.w3schools.com/ */
+.img.baby {
+    float: right;
+    margin: 0px 0px 15px 15px;
+}

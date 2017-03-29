@@ -65,12 +65,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Babies.aspx" />
     <Content Include="contact1.aspx" />
     <Content Include="css\Template.css" />
     <Content Include="images\1024px-Valid_HTML_4.0.svg.png" />
     <Content Include="images\autism.jpg" />
     <Content Include="images\Baby-Toys-ABC-123.jpg" />
     <Content Include="images\baby.png" />
+    <Content Include="images\baby1.talking doll.jpg" />
+    <Content Include="images\baby2.Press me and listen.jpg" />
+    <Content Include="images\baby3.Learning Cube with animal sound.jpg" />
+    <Content Include="images\baby4.Music Making Station 123.jpg" />
+    <Content Include="images\baby5.Cora the smart cub.png" />
     <Content Include="images\can.png" />
     <Content Include="images\childrens-learning-toys-21.jpg" />
     <Content Include="images\colors.jpg" />
@@ -118,6 +124,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Babies.aspx.cs">
+      <DependentUpon>Babies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Babies.aspx.designer.cs">
+      <DependentUpon>Babies.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact1.aspx.cs">
       <DependentUpon>contact1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
