@@ -68,7 +68,6 @@
     <Content Include="Babies.aspx" />
     <Content Include="contact1.aspx" />
     <Content Include="css\Template.css" />
-    <Content Include="HtmlPage1.html" />
     <Content Include="images\1024px-Valid_HTML_4.0.svg.png" />
     <Content Include="images\autism.jpg" />
     <Content Include="images\Baby-Toys-ABC-123.jpg" />
@@ -110,6 +109,7 @@
     <Content Include="JavaScript\Hello.js" />
     <Content Include="packages.config" />
     <Content Include="Products.aspx" />
+    <Content Include="WebForm2.aspx" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Default.aspx" />
     <Content Include="Default.Master" />
@@ -163,6 +163,13 @@
     </Compile>
     <Compile Include="Products.aspx.designer.cs">
       <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
