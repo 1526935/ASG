@@ -10,25 +10,25 @@
 namespace Default {
     
     
-    public partial class contact1 {
+    public partial class Contact {
         
         /// <summary>
-        /// form1 control.
+        /// NameLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label NameLbl;
         
         /// <summary>
-        /// TxtName control.
+        /// NameTxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtName;
+        protected global::System.Web.UI.WebControls.TextBox NameTxt;
         
         /// <summary>
         /// RegExpName control.
@@ -38,6 +38,15 @@ namespace Default {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpName;
+        
+        /// <summary>
+        /// EmailLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EmailLbl;
         
         /// <summary>
         /// EmailTxt control.
@@ -58,6 +67,15 @@ namespace Default {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpEmail;
         
         /// <summary>
+        /// SubjectLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SubjectLbl;
+        
+        /// <summary>
         /// SubjectTxt control.
         /// </summary>
         /// <remarks>
@@ -76,6 +94,15 @@ namespace Default {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpSub;
         
         /// <summary>
+        /// MsgLbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label MsgLbl;
+        
+        /// <summary>
         /// MsgTxt control.
         /// </summary>
         /// <remarks>
@@ -85,13 +112,13 @@ namespace Default {
         protected global::System.Web.UI.WebControls.TextBox MsgTxt;
         
         /// <summary>
-        /// SubmitBtn control.
+        /// Submit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SubmitBtn;
+        protected global::System.Web.UI.WebControls.Button Submit;
         
         /// <summary>
         /// ResultTxt control.
