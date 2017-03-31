@@ -1,7 +1,38 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Default.Log_In" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EducationalGuides.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Default.Login" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">  
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MyFooterSection" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
+    <br />
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <asp:Label ID="NameLbl" runat="server" Text="Name:"></asp:Label><asp:TextBox ID="UsernameBox" runat="server"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionName" runat="server" ControlToValidate="UsernameBox" ErrorMessage="Usename is required" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            .<br />
+            <br />
+            <asp:Label ID="PassLbl" runat="server" Text="Password:"></asp:Label>
+            <asp:TextBox ID="PassBox" runat="server"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorPass" runat="server" ControlToValidate="PassBox" ErrorMessage="Please enter password" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            .<br />
+            <br />
+            <asp:Label ID="EnterPassLbl" runat="server" Text="Re-Enter Password:"></asp:Label>
+            <asp:TextBox ID="ReEnterBox" runat="server"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorReEnter" runat="server" ControlToValidate="ReEnterBox" ErrorMessage="Please re-enter password." ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            <br />
+            <br />
+            <asp:Label ID="PhoneNoLbl" runat="server" Text="Phone Number:"></asp:Label>
+            <asp:TextBox ID="PhonNoBox" runat="server"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorPhone" runat="server" ErrorMessage="Phone number is required." ControlToValidate="PhonNoBox" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            <br />
+            <br />
+            <asp:Label ID="EmailIdLbl" runat="server" Text="Email:"></asp:Label>
+            <asp:TextBox ID="EmailIdBox" runat="server"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorEmail" runat="server" ErrorMessage="Email is required." ControlToValidate="EmailIdBox" ForeColor="Red"></asp:RegularExpressionValidator>
+            <br />
+            <br />
+            <asp:Button ID="SubmitBtn" runat="server" OnClick="SubmitBtn_Click" Text="Submit" />
+            <asp:Literal ID="ResultLit" runat="server"></asp:Literal>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+
+    <div class="scroll-left" > <p > REGISTER NOW </p > </div >
 </asp:Content>

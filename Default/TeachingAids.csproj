@@ -71,6 +71,8 @@
     <Content Include="images\countandmatch.jpg" />
     <Content Include="JavaScript.js" />
     <Content Include="JavaScript1\JavaScript.js" />
+    <Content Include="JavaScript1\Map.js" />
+    <Content Include="Login.aspx" />
     <Content Include="map.html" />
     <Content Include="images\1024px-Valid_HTML_4.0.svg.png" />
     <Content Include="images\autism.jpg" />
@@ -108,8 +110,7 @@
     <Content Include="images\Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" />
     <Content Include="images\woodenboard.jpg" />
     <Content Include="images\you.jpg" />
-    <Content Include="Login.aspx" />
-    <Content Include="MapJS.js" />
+    <Content Include="Map.js" />
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Products.aspx" />

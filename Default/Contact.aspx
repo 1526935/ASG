@@ -29,11 +29,19 @@
         <asp:Literal ID="ResultTxt" runat="server"></asp:Literal>
     <br />
     <br />
-    <h3>MAP LOCATION</h3>
+ 
+    <h3>Simple Map</h3>
     <div id="map"></div>
-   
-   <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9Pojp2CFXhoKXFbXhGf8qtZ2psuh066Q&callback=initMap">
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9Pojp2CFXhoKXFbXhGf8qtZ2psuh066Q&callback=initMap"
+    async defer></script>
    
 </asp:Content>
