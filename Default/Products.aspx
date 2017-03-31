@@ -1,29 +1,29 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="Default.WebForm1" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EducationalGuides.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="Default.Products1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <br />
         <br />
  <div class="row column text-center">
-      <h1>Check Out Our Newest Products</h1>
+      <h2>Check Out Our Newest Products</h2>
       <p>
           <asp:Image ID="Image1" runat="server" Height="48px" ImageUrl="~/images/logo-bootstrap-shoping-cart.png" Width="199px" />
       </p>
-      <hr>
+      <br>
     </div>
 
     <div class="main-content">
 		<div class="carouse1-container">		
 		<div class="carouse1">		
 		<div class="carouse1-image"><img src="~/images/Baby-Toys-ABC-123.jpg" runat="server" alt="ABC Blocks and Numbers" width="350" height="300" /></div>
-		<div class="carouse1-image"><img src="~/images/colors.jpg" runat="server" alt="Identify on Colors" width="350" height="300" /></div>
+		<div class="carouse1-image"><img src="~/images/regcolors.jpg" runat="server" alt="Identify on Colors" width="350" height="300" /></div>
 		<div class="carouse1-image"><img src="~/images/truck.jpg" runat="server" alt="Matching shapes on the truck" width="300" height="300" /></div>
 		<div class="carouse1-image"><img src="~/images/matching shapes.jpg" runat="server" alt="Matching Shapes" width="300" height="300" /></div>
 		<div class="carouse1-image"><img src="~/images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" runat="server" alt="Counting Beads" width="350" height="300" /></div>
 	</div>
-</div>
-        </div>
-    <h2>Product Details</h2>
+</div>    
+ </div>   
+    <h3>Product Details</h3>
 <br />
         <br />
     <div class="row small-up-2 large-up-4">
@@ -46,7 +46,7 @@
 <br />
         <br />
       <div class="column">
-        <img class="Products" src="~/images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" runat="server" width="350" height="350">
+        <img class="Products" src="~/images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" runat="server" alt="Counting Beads" width="350" height="350">
         <h4>Counting Beads Abacus Wire Maze</h4>
         <p>Product No: 00127 </p>
         <a href="#" class="button expanded">ADD TO CART</a>
@@ -54,10 +54,10 @@
 <br />
         <br />
       <div class="column">
-        <img class="Products" src="~/images/explore and match.jpg" runat="server" alt="Play and Match" width="350" height="350">
-        <h4>Play and Match</h4>
+        <img class="Products" src="~/images/countandmatch.jpg" runat="server" alt="Count and Match" width="350" height="350">
+        <h4>Count and Match</h4>
         <p>Product No: 00126 </p>
-          <p>Price: BND10.90</p>
+          <p>Price: BND13.90</p>
         <a href="#" class="button expanded">ADD TO CART</a>
       </div>
     </div>
@@ -65,7 +65,7 @@
         <hr id="Horizontal line" />
         <br />
      <div class="column">
-        <img class="Products" src="~/images/colors.jpg" runat="server" alt="Identify on colors" width="350" height="350">
+        <img class="Products" src="~/images/regcolors.jpg" runat="server" alt="Identify on colors" width="350" height="350">
         <h4>Identify The Basic Colors</h4>
         <p>Product No: 00132 </p>
           <p>Price: BND12.90</p>
@@ -92,12 +92,11 @@
 <br />
         <br />
      <div class="column">
-        <img class="Products" src="~/images/wooden board.jpg" runat="server" alt="Wooden Board" width="350" height="350">
-        <h4>Wooden Board</h4>
+        <img class="Products" src="~/images/woodenboard.jpg" runat="server" alt="Wooden Board" width="350" height="350">
+
+        <h4>Wooden Board With Numbers</h4>
         <p>Product No: 00127 </p>
           <p>Price: BND28.90</p>
         <a href="#" class="button expanded">ADD TO CART</a>
       </div>
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MyFooterSection" runat="server">
 </asp:Content>

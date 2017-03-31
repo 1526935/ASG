@@ -1,79 +1,62 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Default.trial1" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EducationalGuides.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Default.Default" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-  
+     <div class="scroll-left" > <p > PRODUCT INSTOCK</p > </div >
+    <br />
+    <div id="slideShowImages">
+    <img src="~/images/exploreandmatch.jpg" runat="server" alt="Slide 1" width="800" height="500" />
+    <img src="~/images/CalculationBoard.jpg" runat="server" alt="Slide 2" width="800" height="500" />
+    <img src="~/images/countandmatch.jpg" runat="server" alt="Slide 3" width="800" height="500" />    
+    <img src="~/images/see-n-spell.png" runat="server" alt="Slide 4" width="800" height="500" />
+  </div>  
+  <button id="slideShowButton"></button> 
+  <script src="JavaScript1/JavaScript.js"></script>
     <article class="left_article">
-    <h3>&nbsp;</h3>
+        
+        <br />
+        <br />
+    
       <h3>About us </h3>
   </article>
   
-  &nbsp;<article class="left_article">
-    <p>For the young explorers, it is matter to acknowledge them with modern teaching tools to giving them opportunity to go around with their wonders. As technology teaching resources would help and encourage the children to make the learning more interesting. </p>
+  <article class="left_article">
+    <h3>For the young explorers, it is matter to acknowledge them with modern teaching tools to giving them opportunity to go around with their wonders. As technology teaching resources would help and encourage the children to make the learning more interesting. </h3>
       &nbsp;
       &nbsp;
-    <p>By creating this products to the little one is the solution for them who has difficulties in their understanding. There are a lot of different type teaching resources we provide to promote education from basics reading, counting, recognizing colours and shapes. </p>
+    <h3>By creating this products to the little one is the solution for them who has difficulties in their understanding. There are a lot of different type of teaching resources we provide to promote education from basics reading, counting, recognizing colours and shapes. </h3>
     &nbsp;
     &nbsp;  
-      <p>At the same time by having us with you, We could help you as a parent to spent more time with your beloved ones at home or anywhere. It will help to improve your child's development at the same time. </p>
+      <h3>By having us with you it will help you to improve your child's development. </h3>
        <p>LEARNING IS FUN !</p>
       </article>
    
-    <aside class="right_article"><img src="~/images/diploma_hat.png" runat="server" alt="diploma hat" width="400" height="200" class="placeholder"/> </aside>
- 
-
-
- <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    <aside class="right_article"><img src="images/diplomahat.png" alt="diploma hat" width="400" height="200" class="placeholder"/> </aside>
+ <br />
+    <br />
+ <br />
+    <br />
+<br />
+    <br />
     <div class="box">
-    <h2 class="auto-style2">Products Instock</h2>
+    <h3>PRODUCTS OUT OF STOCK</h3>
     <div class="productsList">
         <br />
       <div class="product">
-        <div class="productImage"><img src="~/images/mathematics count.jpg" runat="server" width="286" height="159" alt="Mathematics count"></div>
-            <p class="product">Mathematics board</p>
-        <p class="product">Product Code: 00130</p>
-            <p class="product">Price: BND22.00<br /></p>
-      </div>
-
-      <div class="product">
-            <div class="productImage"><img src="~/images/truck.jpg" runat="server" width="285" height="163" alt="Matching Shapes On The Trucks"></div>
-            <p class="product">Matching Shapes On The Truck</p>
-            <p class="product">Product Code: 00021</p>
-            <p class="product">Price: BND13.90</p>
-            <br />
-        </div>
-        <div class="product">
-          <div class="productImage"><img src="images/Baby-Toys-ABC-123.jpg" width="347" height="191" alt="blocks"></div>
-            <p class="product">ABC Wooden Blocks and Numbers</p>
-            <p class="product">Product Code: 00135</p>
-            <p class="product">Price: BND35.00</p>
-        </div>
-        <br />
-      <div class="product">
-          <div class="productImage"><img src="~/images/matching shapes.jpg" runat="server" width="301" height="211" alt="Educational blocks"></div>
-          <p class="product">Matching Shapes</p>
-            <p class="product">Product Code: 00125</p>
-            <p class="product">Price: BND12.00</p>
-        </div>
-    </div>
-</div>
-
-     <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <div class="box">
-    <h2 class="auto-style2">Out of stock</h2>
-    <div class="productsList">
-        <br />
-      <div class="product">
-        <div class="productImage"><img src="~/images/counting games.jpg" runat="server" width="286" alt="Counting Games" class="auto-style3"></div>
-            <p class="product">Counting Games</p>
+        <div class="productImage"><img src="~/images/countingGames.jpg" runat="server" width="286" alt="Counting Games"></div>
+            <p class="product">CountingGames</p>
         <p class="product">Product Code: 00128</p>
-            <p class="product">Price: BND9.90<br /></p>
-      
-       </div>    
+            <p class="product">Price: BND9.90</p>
+           <div class="productImage"><img src="~/images/baby3.LearningCubewithanimalsound.jpg" runat="server" width="286" alt="Learning Cube"></div>
+            <p class="product">LearningCubeWithAnimalsSound</p>
+        <p class="product">Product Code: 00140</p>
+            <p class="product">Price: BND15.90</p>
+          <a href="Products.aspx" class="button expanded">Click for more product details</a>   
+</div>    
       </div>
-        </div>
+            </div>
+   
+
 
     <div class="row">
     <div class="columns">
@@ -99,11 +82,5 @@
       <h4>FAMILY</h4>
       <p>There are reasons of why the parent should started to be more aware for your young educators. It helps to encourage your child to get their confidence and self-trust on their capability.</p>
     </div>
-  </div>
-       
-
-
-
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MyFooterSection" runat="server">
+ </div>
 </asp:Content>

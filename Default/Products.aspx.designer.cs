@@ -10,7 +10,7 @@
 namespace Default {
     
     
-    public partial class WebForm1 {
+    public partial class Products1 {
         
         /// <summary>
         /// Image1 control.

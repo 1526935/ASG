@@ -10,7 +10,7 @@
 namespace Default {
     
     
-    public partial class Contact {
+    public partial class Contact1 {
         
         /// <summary>
         /// NameLbl control.
