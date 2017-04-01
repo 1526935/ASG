@@ -6,7 +6,7 @@
     <br />
     <asp:Label ID="NameLbl" runat="server" Text="Name:"></asp:Label>
     <asp:TextBox ID="NameTxt" runat="server"></asp:TextBox>
-    <asp:RegularExpressionValidator ID="RegExpName" runat="server" ControlToValidate="NameTxt" ErrorMessage="Name is required." ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+    <asp:RequiredFieldValidator ID="RequiredNameValidator1" runat="server" ControlToValidate="NameTxt" ErrorMessage="Name is required." ForeColor="Red"></asp:RequiredFieldValidator>
             <br />
             <br />
             <asp:Label ID="EmailLbl" runat="server" Text="Email:"></asp:Label>
@@ -16,7 +16,7 @@
             <br />
             <asp:Label ID="SubjectLbl" runat="server" Text="Subject:"></asp:Label>
             <asp:TextBox ID="SubjectTxt" runat="server"></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegExpSub" runat="server" ErrorMessage="Fill in your subject." ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="SubjectTxt" ForeColor="Red"></asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegExpSub" runat="server" ControlToValidate="SubjectTxt"></asp:RegularExpressionValidator>
             <br />
             <br />
             <asp:Label ID="MsgLbl" runat="server" Text="Message:"></asp:Label>

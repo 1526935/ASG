@@ -70,8 +70,10 @@
     <Content Include="css\Template.css" />
     <Content Include="Default.aspx" />
     <Content Include="HotSelling.aspx" />
+    <Content Include="HotSelling.css" />
     <Content Include="images\countandmatch.jpg" />
     <Content Include="JavaScript.js" />
+    <Content Include="JavaScript1\HotSelling.js" />
     <Content Include="JavaScript1\JavaScript.js" />
     <Content Include="JavaScript1\Map.js" />
     <Content Include="Login.aspx" />

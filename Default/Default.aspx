@@ -2,20 +2,30 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-     <div class="scroll-left" > <p > PRODUCTS INSTOCK</p > </div >
+     
+ <div class="row column text-center">
+      <h2>Check Out Our Newest Products</h2>
+      <p>
+          <asp:Image ID="Image1" runat="server" Height="48px" ImageUrl="~/images/logo-bootstrap-shoping-cart.png" Width="199px" />
+      </p>
+      <br>
+    </div> 
+    <div class="scroll-left" > <p > PRODUCTS INSTOCK</p > </div >
     <br />
     <div id="slideShowImages">
-    <img src="~/images/exploreandmatch.jpg" runat="server" alt="Slide 1" width="800" height="500" />
-    <img src="~/images/CalculationBoard.jpg" runat="server" alt="Slide 2" width="800" height="500" />
-    <img src="~/images/countandmatch.jpg" runat="server" alt="Slide 3" width="800" height="500" />    
-    <img src="~/images/see-n-spell.png" runat="server" alt="Slide 4" width="800" height="500" />
+    <img src="~/images/exploreandmatch.jpg" runat="server" alt="Slide 1" width="500" height="300" />
+    <img src="~/images/CalculationBoard.jpg" runat="server" alt="Slide 2" width="500" height="300" />
+    <img src="~/images/countandmatch.jpg" runat="server" alt="Slide 3" width="500" height="300" />    
+    <img src="~/images/see-n-spell.png" runat="server" alt="Slide 4" width="500" height="300" />
   </div>  
-  <button id="slideShowButton"></button> 
-  <script src="JavaScript1/JavaScript.js"></script>
+  <script src="~/JavaScript1/JavaScript.js" runat="server"></script>
     <article class="left_article">
+        
+        <hr id="horizontalLine" style="width: 1845px" />
         
         <br />
         <br />
+
     
       <h3>About us </h3>
   </article>
@@ -38,6 +48,8 @@
     <br />
 <br />
     <br />
+ <br />
+     <br />
     <div class="box">
     <h3>PRODUCTS OUT OF STOCK</h3>
     <div class="productsList">

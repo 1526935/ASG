@@ -1,0 +1,19 @@
+﻿/*======================CSS is adapted from http://www.w3schools.com/  AND http://www.html.am */
+#slideShowImages {
+    border: 1px gray solid;
+    background-color: lavender;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #slideShowImages img {
+        border: 0.8em  solid  thick;
+        border-color: aliceblue;
+        padding: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+

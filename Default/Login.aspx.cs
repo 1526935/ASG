@@ -26,9 +26,9 @@ namespace Default
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("c05027lcb@gmail.com", EmailIdBox.Text);
-            msg.Subject = "Name: " + UsernameBox.Text + " Password: " + PassBox.Text + " Re-Enter Password: " + ReEnterBox.Text + "Phone Number: " + PhonNoBox + "Email:" + EmailIdBox;
-            
+            MailMessage msg = new MailMessage("c05027lcb@gmail.com", EmailIdLbl.Text);
+            msg.Subject = "Name: " + NameLbl.Text + " Password: " + PassLbl.Text;
+            msg.Body = EmailIdLbl.Text;
             smtpClient.Send(msg);
 
             try

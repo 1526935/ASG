@@ -2,16 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-    <br />
-        <br />
- <div class="row column text-center">
-      <h2>Check Out Our Newest Products</h2>
-      <p>
-          <asp:Image ID="Image1" runat="server" Height="48px" ImageUrl="~/images/logo-bootstrap-shoping-cart.png" Width="199px" />
-      </p>
-      <br>
-    </div>
-
+  
     <div class="main-content">
 		<div class="carouse1-container">		
 		<div class="carouse1">		

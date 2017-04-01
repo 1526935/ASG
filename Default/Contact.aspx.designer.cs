@@ -31,13 +31,13 @@ namespace Default {
         protected global::System.Web.UI.WebControls.TextBox NameTxt;
         
         /// <summary>
-        /// RegExpName control.
+        /// RequiredNameValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExpName;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredNameValidator1;
         
         /// <summary>
         /// EmailLbl control.

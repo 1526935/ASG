@@ -634,6 +634,7 @@ img.Products {
         margin-left: auto;
         margin-right: auto;
     }
+/******************---SCROLL LEFT TEXT CSS--*******************************/
 .scroll-left {
  
     height: 50px;
@@ -657,12 +658,12 @@ img.Products {
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
-    /* Apply animation to this element */
+    
     -moz-animation: scroll-left 15s linear infinite;
     -webkit-animation: scroll-left 15s linear infinite;
     animation: scroll-left 15s linear infinite;
 }
-/* Move it (define the animation) */
+
 @-moz-keyframes scroll-left {
     0% {
         -moz-transform: translateX(100%);
@@ -706,4 +707,23 @@ html, body {
     height: 100px;
     margin: 0;
     padding: 0;
+}
+/******************---SLIDESHOW CSS IN HOTSELLING PAGE--*******************************/
+
+.mySlides {
+    display: none;
+    background-color:black;
+    
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer;
+    background-color: black;
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    background-color: black;
 }
