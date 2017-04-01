@@ -16,7 +16,7 @@
             <br />
             <asp:Label ID="EnterPassLbl" runat="server" Text="Re-Enter Password:"></asp:Label>
             <asp:TextBox ID="ReEnterBox" runat="server"></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidatorReEnter" runat="server" ControlToValidate="ReEnterBox" ErrorMessage="Please re-enter password." ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorReEnter" runat="server" ControlToValidate="ReEnterBox" ErrorMessage="Please re-enter your password." ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
             <br />
             <br />
             <asp:Label ID="PhoneNoLbl" runat="server" Text="Phone Number:"></asp:Label>
@@ -26,7 +26,7 @@
             <br />
             <asp:Label ID="EmailIdLbl" runat="server" Text="Email:"></asp:Label>
             <asp:TextBox ID="EmailIdBox" runat="server"></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidatorEmail" runat="server" ErrorMessage="Email is required." ControlToValidate="EmailIdBox" ForeColor="Red"></asp:RegularExpressionValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidatorEmail" runat="server" ErrorMessage="Valid email is required." ControlToValidate="EmailIdBox" ForeColor="Red"></asp:RegularExpressionValidator>
             <br />
             <br />
             <asp:Button ID="SubmitBtn" runat="server" OnClick="SubmitBtn_Click" Text="Submit" />
