@@ -14,9 +14,6 @@
 <body>
     <header>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server"> </asp:ContentPlaceHolder></header>
-
-    
-
     <form id="form1" runat="server">
         
         <div class="primary_header">
@@ -39,7 +36,7 @@
                 <li><a href="~/Default.aspx" runat="server">HOME</a></li>
                 <li><a href="~/Products.aspx" runat="server">PRODUCTS</a></li>
                 <li><a href="~/Login.aspx" runat="server">LOGIN</a></li>
-                <li><a href="~/Hotselling.aspx" runat="server">HOTSELLING</a></li>
+                <li><a href="~/HotSelling.aspx" runat="server">HOTSELLING</a></li>
                 <li><a href="~/Address.aspx" runat="server">ADDRESS</a></li>
                 <li><a href="~/Contact.aspx" runat="server">CONTACT</a></li>
             </ul>

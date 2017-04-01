@@ -65,9 +65,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Address.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\Template.css" />
     <Content Include="Default.aspx" />
+    <Content Include="HotSelling.aspx" />
     <Content Include="images\countandmatch.jpg" />
     <Content Include="JavaScript.js" />
     <Content Include="JavaScript1\JavaScript.js" />
@@ -98,7 +100,7 @@
     <Content Include="images\Instagram-icon.png" />
     <Content Include="images\it.png" />
     <Content Include="images\logo-bootstrap-shoping-cart.png" />
-    <Content Include="images\matching shapes.jpg" />
+    <Content Include="images\matchingshapes.jpg" />
     <Content Include="images\mathematics count.jpg" />
     <Content Include="images\regcolors.jpg" />
     <Content Include="images\schools.png" />
@@ -127,6 +129,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.aspx.cs">
+      <DependentUpon>Address.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Address.aspx.designer.cs">
+      <DependentUpon>Address.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -143,6 +152,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HotSelling.aspx.cs">
+      <DependentUpon>HotSelling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HotSelling.aspx.designer.cs">
+      <DependentUpon>HotSelling.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

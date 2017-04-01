@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-     <div class="scroll-left" > <p > PRODUCT INSTOCK</p > </div >
+     <div class="scroll-left" > <p > PRODUCTS INSTOCK</p > </div >
     <br />
     <div id="slideShowImages">
     <img src="~/images/exploreandmatch.jpg" runat="server" alt="Slide 1" width="800" height="500" />
@@ -60,25 +60,25 @@
 
     <div class="row">
     <div class="columns">
-      <p class="thumbnail_align"> <img src="images/autism.jpg" alt="autism" class="thumbnail"/> </p>
+      <p class="thumbnail_align"> <img src="~/images/autism.jpg" runat="server" alt="autism" class="thumbnail"/> </p>
       <h4>AUTISM</h4>
       <p>we are providing speciality products for a child with autism which it could help to reduce the symptoms of autism itself. </p>
     </div>
     
     <div class="columns">
-      <p class="thumbnail_align"> <img src="images/baby.png" alt="baby" class="thumbnail"/> </p>
+      <p class="thumbnail_align"> <img src="~/images/baby.png" runat="server" alt="baby" class="thumbnail"/> </p>
       <h4>INFANT</h4>
       <p>By the age of 6 months your baby could have started with the educational tools, Which our products are away from chemicals and safe to be used for your baby. </p>
     </div>
     
     <div class="columns">
-      <p class="thumbnail_align"> <img src="images/schools.png" alt="school" class="thumbnail"/> </p>
+      <p class="thumbnail_align"> <img src="~/images/schools.png" runat="server" alt="school" class="thumbnail"/> </p>
       <h4>TEACHER</h4>
       <p>Let the young generations to enjoy their exploration with the effective teaching tools, whereas it will help them to easily understand on what they have learnt.</p>
     </div>
     
     <div class="columns">
-      <p class="thumbnail_align"> <img src="images/family.jpg" alt="family" class="thumbnail"/> </p>
+      <p class="thumbnail_align"> <img src="~/images/family.jpg" runat="server" alt="family" class="thumbnail"/> </p>
       <h4>FAMILY</h4>
       <p>There are reasons of why the parent should started to be more aware for your young educators. It helps to encourage your child to get their confidence and self-trust on their capability.</p>
     </div>

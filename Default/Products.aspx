@@ -74,7 +74,7 @@
 <br />
         <br />
      <div class="column">
-        <img class="Products" src="~/images/matching shapes.jpg" runat="server" alt="Matching Shapes" width="350" height="350">
+        <img class="Products" src="~/images/matchingshapes.jpg" runat="server" alt="Matching Shapes" width="350" height="350">
         <h4>Matching Shapes</h4>
         <p>Product No: 00125 </p>
           <p>Price: BND12.00</p>
