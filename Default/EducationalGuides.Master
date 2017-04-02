@@ -35,9 +35,9 @@
             <ul>
                 <li><a href="~/Default.aspx" runat="server">HOME</a></li>
                 <li><a href="~/Products.aspx" runat="server">PRODUCTS</a></li>
-                <li><a href="~/Login.aspx" runat="server">LOGIN</a></li>
                 <li><a href="~/HotSelling.aspx" runat="server">HOTSELLING</a></li>
-                <li><a href="~/Address.aspx" runat="server">ADDRESS</a></li>
+                 <li><a href="~/Babies.aspx" runat="server">BABIES</a></li>
+                <li><a href="~/Login.aspx" runat="server">LOGIN</a></li>
                 <li><a href="~/Contact.aspx" runat="server">CONTACT</a></li>
             </ul>
         </nav>

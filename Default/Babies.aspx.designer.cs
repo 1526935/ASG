@@ -10,7 +10,7 @@
 namespace Default {
     
     
-    public partial class Products1 {
+    public partial class Address {
         
         /// <summary>
         /// Image1 control.

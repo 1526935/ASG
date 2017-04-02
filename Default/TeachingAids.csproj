@@ -65,13 +65,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Address.aspx" />
+    <Content Include="Babies.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="css\Template.css" />
     <Content Include="Default.aspx" />
     <Content Include="HotSelling.aspx" />
     <Content Include="HotSelling.css" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="images\alphabetselephant.jpg" />
+    <Content Include="images\baby.10LearningTableBlue.jpg" />
+    <Content Include="images\baby11.grabstackblocks.jpg" />
+    <Content Include="images\baby6.animalsSound.jpg" />
+    <Content Include="images\baby7.animalsSoundYellow.jpg" />
+    <Content Include="images\baby8.learningTable.jpg" />
+    <Content Include="images\baby9.LearningWalkerWithEducationalSounds.jpg" />
+    <Content Include="images\blockstower.jpg" />
     <Content Include="images\countandmatch.jpg" />
+    <Content Include="images\learnmaths.jpg" />
     <Content Include="JavaScript.js" />
     <Content Include="JavaScript1\HotSelling.js" />
     <Content Include="JavaScript1\JavaScript.js" />
@@ -82,11 +92,11 @@
     <Content Include="images\autism.jpg" />
     <Content Include="images\Baby-Toys-ABC-123.jpg" />
     <Content Include="images\baby.png" />
-    <Content Include="images\baby1.talking doll.jpg" />
-    <Content Include="images\baby2.Press me and listen.jpg" />
+    <Content Include="images\baby1.talkingdoll.jpg" />
+    <Content Include="images\baby2.Pressmeandlisten.jpg" />
     <Content Include="images\baby3.LearningCubewithanimalsound.jpg" />
-    <Content Include="images\baby4.Music Making Station 123.jpg" />
-    <Content Include="images\baby5.Cora the smart cub.png" />
+    <Content Include="images\baby4.MusicMakingStation123.jpg" />
+    <Content Include="images\baby5.Corathesmartcub.png" />
     <Content Include="images\CalculationBoard.jpg" />
     <Content Include="images\can.png" />
     <Content Include="images\childrens-learning  blocks.jpg" />
@@ -131,12 +141,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.aspx.cs">
-      <DependentUpon>Address.aspx</DependentUpon>
+    <Compile Include="Babies.aspx.cs">
+      <DependentUpon>Babies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Address.aspx.designer.cs">
-      <DependentUpon>Address.aspx</DependentUpon>
+    <Compile Include="Babies.aspx.designer.cs">
+      <DependentUpon>Babies.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

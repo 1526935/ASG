@@ -2,21 +2,20 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
-  
+<p> <asp:Image ID="Image1" runat="server" Height="48px" ImageUrl="~/images/logo-bootstrap-shoping-cart.png" Width="199px" /></p>  
     <div class="main-content">
 		<div class="carouse1-container">		
 		<div class="carouse1">		
 		<div class="carouse1-image"><img src="~/images/Baby-Toys-ABC-123.jpg" runat="server" alt="ABC Blocks and Numbers" width="350" height="300" /></div>
 		<div class="carouse1-image"><img src="~/images/regcolors.jpg" runat="server" alt="Identify on Colors" width="350" height="300" /></div>
 		<div class="carouse1-image"><img src="~/images/truck.jpg" runat="server" alt="Matching shapes on the truck" width="300" height="300" /></div>
-		<div class="carouse1-image"><img src="~/images/matching shapes.jpg" runat="server" alt="Matching Shapes" width="300" height="300" /></div>
+		<div class="carouse1-image"><img src="~/images/matchingshapes.jpg" runat="server" alt="Matching Shapes" width="300" height="300" /></div>
 		<div class="carouse1-image"><img src="~/images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" runat="server" alt="Counting Beads" width="350" height="300" /></div>
 	</div>
 </div>    
  </div>   
+
     <h3>Product Details</h3>
-<br />
-        <br />
     <div class="row small-up-2 large-up-4">
       <div class="column">
         <img class="Products" src="~/images/Baby-Toys-ABC-123.jpg" runat="server" alt="ABC wooden blocks and number" width="350" height="350">
