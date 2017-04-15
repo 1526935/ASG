@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
+     <!--Code are adapted from https://w3school.com-->
     <br />
     <br />
     <asp:Label ID="NameLbl" runat="server" Text="Name:"></asp:Label>
@@ -29,18 +30,22 @@
     <br />
     <br />
  
-    <h3>Simple Map</h3>
+   
+  
+ 
+    <h3>Our Location</h3>
     <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9Pojp2CFXhoKXFbXhGf8qtZ2psuh066Q&callback=initMap"
-    async defer></script>
+    
+    <script src="JavaScript1/Map.js"></script>
+
+<script async defer 
+    
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBTcwZQDTCO4rI4zAILl_9hM9ugckDhXek&callback=initMap"
+  type="text/javascript"></script>
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
    
 </asp:Content>

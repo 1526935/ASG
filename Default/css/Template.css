@@ -611,11 +611,6 @@ img.Products {
     float: right;
     margin: 0px 0px 15px 15px;
 }
-/******************---CONTACT SECTION--*******************************/
-
-#map {
-    height: 50%;
-}
 /******************---SLIDESHOW IMAGES AND OTHER STYLES IN DEFAULT PAGE SECTION--*******************************/
 /*======================CSS is adapted from http://www.w3schools.com/  AND http://www.html.am */
 #slideShowImages {
@@ -680,18 +675,7 @@ img.Products {
     }
 }
 
-/******************---MAP CSS--*******************************/
-/*======================CSS is adapted from http://www.w3schools.com/  */
 
-#map {
-    height: 100%;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 /******************---SLIDESHOW CSS IN HOTSELLING PAGE--*******************************/
 /*======================CSS is adapted from http://www.w3schools.com/ */
 
@@ -735,4 +719,11 @@ div.gallery {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+/******************---MAP CSS--*******************************/
+/*======================CSS is adapted from http://www.w3schools.com/  */
+
+#map {
+    height: 600px;
+    width: 100%;
 }
