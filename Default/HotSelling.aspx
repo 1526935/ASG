@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
+    <link href="~/css/StyleSheet1.css" runat="server" rel="stylesheet" type="text/css" />
     <div class="scroll-left" > <p > HOT SELLING</p > </div >
 <div class="row column text-center"></div> 
    <h2>GRAB YOURS NOW</h2>

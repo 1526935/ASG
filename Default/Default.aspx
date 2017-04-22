@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
+    
     <!--Code are adapted from https://w3school.com-->
     <div class="scroll-left" > <p > PRODUCTS INSTOCK</p > </div >
    
