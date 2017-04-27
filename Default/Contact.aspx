@@ -1,16 +1,19 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EducationalGuides.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Default.WebForm1" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/EducationalGuides.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Default.Contact111" EnableEventValidation="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
+    <!--Codes are adapted from https://www.codeproject.com & http://tutorials.tinyappco.com -->
     <asp:Panel ID="Panel1" runat="server" DefaultButton="btnSubmit">
-    <h3>
-        Fill in the following to keep in touch with us!</h3>
- 
+  
+       <h2 >Fill in the following to keep in touch with us! </h2> 
+
+        <br />
+       
         Your name:
         <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ErrorMessage="Name is required"
 
             ControlToValidate="YourName" ValidationGroup="save" ForeColor="Red" /><br />
-        <asp:TextBox ID="YourName" runat="server" Width="250px" BorderColor="#0099FF" />
+        <asp:TextBox ID="YourName" runat="server" Width="256px" BorderColor="#0099FF" Height="33px" />
         <br />
         <br />
         Your email address:
@@ -18,7 +21,7 @@
 
             ControlToValidate="YourEmail" ValidationGroup="save" ForeColor="Red" />
         <br />
-        <asp:TextBox ID="YourEmail" runat="server" Width="250px" BorderColor="#0099FF" />
+        <asp:TextBox ID="YourEmail" runat="server" Width="253px" BorderColor="#0099FF" Height="32px" />
         <asp:RegularExpressionValidator runat="server" ID="RegularExpressionValidator23"
 
             SetFocusOnError="true" Text="Example: username@gmail.com" ControlToValidate="YourEmail"
@@ -32,7 +35,7 @@
         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Subject is required"
 
             ControlToValidate="YourSubject" ValidationGroup="save" ForeColor="Red" /><br />
-        <asp:TextBox ID="YourSubject" runat="server" Width="400px" BorderColor="#0099FF" />
+        <asp:TextBox ID="YourSubject" runat="server" Width="400px" BorderColor="#0099FF" Height="30px" />
         <br />
         <br />
         Your Message:
@@ -46,16 +49,24 @@
     <p>
         <asp:Button ID="btnSubmit" runat="server" Text="Send" 
 
-                    OnClick="Button1_Click" ValidationGroup="save" Height="29px" Width="123px" />
+                    OnClick="Button1_Click" ValidationGroup="save" Height="29px" Width="123px" BackColor="#99CCFF" />
+        <asp:Literal ID="ResultLit" runat="server"></asp:Literal>
     </p>
 </asp:Panel>
 <p>
-    <asp:Literal ID="LitResult" runat="server" Visible="false"></asp:Literal>
-</p>  
+    &nbsp;</p>  
 
     <div class="scroll-left" > <p > FIND US </p > </div >
     <br />
     <h3>Our Location</h3>
+   
+    <p> Teaching Guides Sdn Bhd,
+    </p>
+    <p> Kampong Batu Bersurat, </p>
+    <p> Simpang 123, Jln Laksamana Abdul Razak,
+        </p>
+    <p> Negara Brunei Darussalam. </p>
+    <p
     <div id="map"></div>
     
     <script src="JavaScript1/Map.js"></script>

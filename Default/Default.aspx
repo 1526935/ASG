@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EducationalGuides.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Default.Default" %>
+﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/EducationalGuides.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Default.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
@@ -47,9 +47,9 @@
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="~/images/blockstower.jpg" runat="server">
-      <img src="~/images/blockstower.jpg" runat="server" alt="blocksTower" width="250" style="height: 414px"/>
+      <img src="~/images/blockstower.jpg" runat="server" alt="blocksTower" width="250" style="height: 385px"/>
     </a>
-    <div class="desc">Wooden Blocks Tower<br />
+    <div class="desc" style="height: 47px">Wooden Blocks Tower<br />
         Product Code: 0081<br />
         Price: BND 12.90</div>
   </div>
