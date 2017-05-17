@@ -134,3 +134,21 @@ body {
         font-size: 11px
     }
 }
+.Product_list {float:inherit;
+    display: inline-block; 
+       width: 400px;
+       height:200px;
+       font: xx-large;
+       font:100;
+
+}
+.Paragraph p { font:larger;
+
+}
+.design {
+    margin-bottom: 50px;
+}
+
+.FormDesign {
+    margin-bottom: 55px;
+}

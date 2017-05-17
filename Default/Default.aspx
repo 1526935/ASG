@@ -8,113 +8,121 @@
    
    <h2>Check Out Our Newest Products Instock</h2>
     <div id="slideShowImages">
-    <img src="~/images/exploreandmatch.jpg" runat="server" alt="Slide 1" width="950" height="600" />
-    <img src="~/images/CalculationBoard.jpg" runat="server" alt="Slide 2" width="950" height="600" />
-    <img src="~/images/countandmatch.jpg" runat="server" alt="Slide 3" width="950" height="600" />    
-    <img src="~/images/see-n-spell.png" runat="server" alt="Slide 4" width="950" height="600" />
+    <img src="~/images/exploreandmatch.jpg" runat="server" alt="Slide 1" width="600" height="600" />
+    <img src="~/images/CalculationBoard.jpg" runat="server" alt="Slide 2" width="600" height="600" />
+    <img src="~/images/countandmatch.jpg" runat="server" alt="Slide 3" width="600" height="600" />    
+    <img src="~/images/see-n-spell.png" runat="server" alt="Slide 4" width="600" height="600" />
   </div> 
     <script src="JavaScript1/JavaScript.js"></script>
 <!--Script adapted from https://msdn.microsoft.com--> <asp:Button ID="Details" runat="server" BorderStyle="Solid" ForeColor="Blue" Height="45px" PostBackUrl="~/Products.aspx" Text="Product Details" Width="286px" BorderColor="Black" />
         
     <article class="left_article"> 
-        <br />
-        <br />
+
       <h3>About us </h3>
   </article>
   
   <article class="left_article">
     <h3>For the young explorers, it is matter to acknowledge them with modern teaching tools to giving them opportunity to go around with their wonders. As technology teaching resources would help and encourage your children to make the learning more interestings. </h3>
-      &nbsp;
-      &nbsp;
+     
     <h3>We are promoting education from basic reading, counting, recognizing colours and shapes. </h3>
-    &nbsp;
-    &nbsp;  
+   
       <h3>Having us with you it will help you to improve your child's development. </h3>
-       <h3>&nbsp;</h3>
+       
       <h3>LEARNING IS FUN !</h3>
       </article>
    
     <aside class="right_article"><img src="~/images/diploma_hat.png" runat="server" alt="diploma hat" width="200" height="200" class="placeholder"/> </aside>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+<div class="clearfix"></div>
+
+     <div class="responsive">
+</div>
+     <div class="scroll-left" > <p > HOT SELLING</p > </div >
+   <asp:Image ID="Image1" runat="server" Height="48px" ImageUrl="~/images/logo-bootstrap-shoping-cart.png" Width="199px" />
+ 
+   <div class="row small-up-2 large-up-4">
+      <div class="column">
+        <img class="Products" src="~/images/Baby-Toys-ABC-123.jpg" runat="server" alt="ABC wooden blocks and number" width="350" height="350"/>
+        <h4>ABC Wooden Blocks and Number</h4>
+        <p>Product No: 111</p>
+          <p>Price: BND35.00</p>
+        <asp:ImageButton ID="AddToCartBtn1" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+      </div>
+
+      <div class="column">
+        <img class="Products" src="~/images/truck.jpg" runat="server" alt="Matching Shapes On Truck" width="350" height="350"/>
+        <h4>Matching Shapes On The Truck</h4>
+        <p>Product No: 112 </p>
+          <p>Price: BND13.90</p>
+      </div>
+       <asp:ImageButton ID="AddToCartBtn2" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+      <div class="column">
+        <img class="Products" src="~/images/Wooden-toys-Counting-Bead-Abacus-Wire-Maze-Roller-Coaster-Wooden-Educational-Toy-for-Baby-Kids.jpg" runat="server" alt="Counting Beads" width="350" height="350"/>
+        <h4>Counting Beads Abacus Wire Maze</h4>
+        <p>Product No: 113</p>
+          <p>Price: BND 25.00</p>
+        </div>
+       <asp:ImageButton ID="AddToCartBtn3" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+
+      <div class="column">
+        <img class="Products" src="~/images/countandmatch.jpg" runat="server" alt="Count and Match" width="350" height="350"/>
+        <h4>Count and Match</h4>
+        <p>Product No: 114 </p>
+          <p>Price: BND13.90</p>
+          <asp:ImageButton ID="AddToCartBtn4" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+  
+      </div>
+    </div>
+
+     <div class="column">
+        <img class="Products" src="~/images/regcolors.jpg" runat="server" alt="Identify on colors" width="350" height="350"/>
+        <h4>Identify The Basic Colors</h4>
+        <p>Product No: 115 
+          <p>Price: BND12.90</p>
+         <asp:ImageButton ID="AddToCartBtn5" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+      </div>
+     <div class="column">
+        <img class="Products" src="~/images/matchingshapes.jpg" runat="server" alt="Matching Shapes" width="350" height="350"/>
+        <h4>Matching Shapes</h4>
+        <p>Product No: 116 </p>
+          <p>Price: BND12.00</p>
+         <asp:ImageButton ID="AddToCartBtn6" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+      </div>
+
+     <div class="column">
+        <img class="Products" src="~/images/see-n-spell.png" runat="server" alt="See and Spell" width="350" height="350"/>
+        <h4>See and Spell</h4>
+        <p>Product No: 117 </p>
+          <p>Price: BND22.90</p>
+         <asp:ImageButton ID="AddToCartBtn7" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+</div>
+     <div class="column" style="height: 360px">
+        <img class="Products" src="~/images/woodenboard.jpg" runat="server" alt="Wooden Board" width="350" height="350"/>
+
+        <h4>Wooden Board With Numbers</h4>
+        <p>Product No: 118</p>
+          <p>Price: BND28.90</p>
+         <asp:ImageButton ID="AddToCartBtn8" runat="server" Height="67px" ImageUrl="~/images/shopping-cart.png" Width="79px" />
+</div>
+    <div class="scroll-left" > <p > POPULAR PRODUCTS </p > </div >
    
-    <h2>Items out of stock</h2>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="~/images/blockstower.jpg" runat="server">
-      <img src="~/images/blockstower.jpg" runat="server" alt="blocksTower" width="250" style="height: 385px"/>
+    <div>
+        <asp:Repeater ID="Repeater1" runat="server" DataSourceID="ProductLists">
+        <HeaderTemplate>
+            <div>
+        </HeaderTemplate>
+<ItemTemplate>
+    <div class="Product_list">
+<a href="<%# Eval ("Id", "ViewProduct.aspx?Id={0}") %>"> <img src="~/images/woodenboard.jpg" runat="server" alt="See and Spell" width="200" height="200" />
+    <div class="Paragraph"> <p><%#Eval ("ProductsName") %></p></div> 
     </a>
-    <div class="desc" style="height: 47px">Wooden Blocks Tower<br />
-        Product Code: 0081<br />
-        Price: BND 12.90</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="~/images/alphabetselephant.jpg" runat="server">
-      <img src="~/images/alphabetselephant.jpg" runat="server" alt="Alphabets" width="250" height="440"/>
-    </a>
-    <div class="desc">Alphabets With Elephant<br />
-        Product Code: 0082<br />
-        Price: BND 13.90</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="~/images/baby3.LearningCubewithanimalsound.jpg" runat="server">
-      <img src="~/images/baby3.LearningCubewithanimalsound.jpg" runat="server" alt="Educational Cube" width="250" height="440"/>
-    </a>
-    <div class="desc">Educational Cube With Animal Sound<br />
-        Product Code: 0086<br />
-        Price: BND 18.00</div>
-  </div>
-</div>
-<div class="clearfix"></div>
-
-    <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="~/images/outOfStock1.jpg" runat="server">
-      <img src="~/images/outOfStock1.jpg" runat="server" alt="Matching Shape Cube" width="250" style="height: 379px"/>
-    </a>
-    <div class="desc">Matching Shapes Cube<br />
-        Product Code: 0087<br />
-        Price: BND 19.90</div>
-  </div>
-</div>
-<div class="clearfix"></div>
-
-     <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="~/images/OutOfStockMahneticPuzzle.jpg" runat="server">
-      <img src="~/images/OutOfStockMahneticPuzzle.jpg" runat="server" alt="Magnetic Puzzle" width="250" style="height: 373px"/>
-    </a>
-    <div class="desc">Magnetic Puzzles<br />
-        Product Code: 0088<br />
-        Price: BND 15.90</div>
-  </div>
-</div>
-<div class="clearfix"></div>
-
-     <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="~/images/OutOfStockMiniBus.jpg" runat="server">
-      <img src="~/images/OutOfStockMiniBus.jpg" runat="server" alt="Mini Bus With Sound" width="250" style="height: 366px"/>
-    </a>
-    <div class="desc">Mini Bus With Sound<br />
-        Product Code: 0089<br />
-        Price: BND 17.90</div>
-  </div>
-</div>
-<div class="clearfix"></div>
-
+    </div>
+</ItemTemplate>
+            <FooterTemplate></div></FooterTemplate>
+        </asp:Repeater>
+        <asp:SqlDataSource ID="ProductLists" runat="server" ConnectionString="<%$ ConnectionStrings:db_1526935_1526935_educationalguides_co5027ConnectionString %>" SelectCommand="SELECT * FROM [tblTeachingProducts] ORDER BY [Id]"></asp:SqlDataSource>
+       
+    </div>
+<div class="clearfix">
     <div class="row">
     <div class="columns">
         <p class="thumbnail_align"> <img src="~/images/autism.jpg" runat="server" alt="autism" class="thumbnail" /> </p>
@@ -140,5 +148,7 @@
         <p>There are reasons of why the parent should started to be more aware for your young educators. It helps to encourage your child to get their confidence and self-trust on their capability.</p>
     </div>
         </div>
+    </div>
 
+    
 </asp:Content>

@@ -19,19 +19,19 @@ namespace Default
         {
             SmtpClient smtpClient = new SmtpClient();
 
-            MailMessage msg = new MailMessage(YourEmail.Text, "arnavictoriousvic@gmail.com");
+            MailMessage msg = new MailMessage(YourEmail.Text, "teacoffee315@gmail.com");
 
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
             smtpClient.EnableSsl = true;
            
 
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("arnavictoriousvic@gmail.com", "adgjmjgda1234");
-            smtpClient.Credentials = credentials;
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("teacoffee315@gmail.com", "P@55word1");
+            
             msg.Subject = "Name: " + YourName.Text + " " + "Subject: " + " " + YourSubject.Text;
             msg.Body = YourEmail.Text + " " + Comments.Text;
             //here on button click what will done 
-
+            smtpClient.Credentials = credentials;
 
             try
             {

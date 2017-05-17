@@ -7,9 +7,11 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
- <link href="~/css/Template.css" runat="server" rel="stylesheet" type="text/css" />
-
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="~/css/Template.css" runat="server" rel="stylesheet" type="text/css" />
+    <link href="~/css/StyleSheet1.css" runat="server" rel="stylesheet" type="text/css" />
     <title> Teaching Aids </title>
 </head>
 <body>
@@ -34,7 +36,6 @@
                 <li><a href="~/Default.aspx" runat="server">HOME</a></li>
                 <li><a href="~/Products.aspx" runat="server">PRODUCTS</a></li>
                 <li><a href="~/HotSelling.aspx" runat="server">HOTSELLING</a></li>
-                 <li><a href="~/Babies.aspx" runat="server">BABIES</a></li>
                 <li><a href="~/Login.aspx" runat="server">LOGIN</a></li>
                 <li><a href="~/Contact.aspx" runat="server">CONTACT</a></li>
             </ul>
@@ -65,7 +66,7 @@
 </div>
   <footer class="secondary_header footer">
     <div class="footer">
-   <p><a href="#">Admin</a></p>
+   <p><a href="~/AdminPage/AddProductPage.aspx" runat="server">Admin</a></p>
       <p>2017- Modern teaching tools</p>
       <p><a href="http://achecker.ca/checker/?uri=referer"><img src="~/images/1024px-Valid_HTML_4.0.svg.png" runat="server" width="105" height="43" alt="HTML" longdesc="https://achecker.ca/checker/index.php"/></a>
       <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="~/images/Valid_CSS.svg.png" runat="server" width="105" height="43" alt="CSS" longdesc="http://jigsaw.w3.org/css-validator/validator"/></a>

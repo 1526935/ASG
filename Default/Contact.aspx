@@ -66,14 +66,9 @@
     <p> Simpang 123, Jln Laksamana Abdul Razak,
         </p>
     <p> Negara Brunei Darussalam. </p>
-    <p
-    <div id="map"></div>
-    
-    <script src="JavaScript1/Map.js"></script>
 
-<script async defer 
-    
-    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBTcwZQDTCO4rI4zAILl_9hM9ugckDhXek&callback=initMap"
-  type="text/javascript"></script>
+    <div id="map"></div>
+    <script src="JavaScript1/Map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBTcwZQDTCO4rI4zAILl_9hM9ugckDhXek&callback=initMap"></script>
    
 </asp:Content>

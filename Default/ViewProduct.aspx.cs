@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Default
 {
-    public partial class Address : System.Web.UI.Page
+    public partial class ViewProduct : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
